@@ -4,7 +4,7 @@ Tom’s Simple Storage: Extensions is a Forge addon for **[Tom’s Simple Storag
 
 ## Requires
 
-*   **Tom’s Simple Storage Mod : [Modrinth Link]((https://modrinth.com/mod/toms-storage)_[Curseforge Link](https://www.curseforge.com/minecraft/mc-mods/toms-storage)**
+*   **Tom’s Simple Storage Mod : [Modrinth Link]((https://modrinth.com/mod/toms-storage) [Curseforge Link](https://www.curseforge.com/minecraft/mc-mods/toms-storage)**
 *   **Forge 47.4.0**
 *   **Minecraft 1.20.1**
 
