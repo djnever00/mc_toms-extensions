@@ -52,6 +52,6 @@ Examples:
 
 Built as an addon for **[Tom’s Simple Storage Mod](https://www.curseforge.com/minecraft/mc-mods/toms-storage)**.  
 Please download the original mod separately.  
-Thanks to **[tom54541](https://github.com/tom5454)** for the original mod!
+Thanks to **[tom5454](https://github.com/tom5454)** for the original mod!
 
 Project code and image texture work were created with AI assistance.
