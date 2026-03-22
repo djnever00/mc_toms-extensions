@@ -1,4 +1,4 @@
-Tom’s Simple Storage: Extensions is a Forge addon for **[Tom’s Simple Storage Mod](https://www.curseforge.com/minecraft/mc-mods/toms-storage)** that adds an **Inventory Trim Slab** variant to Minecraft 1.20.1. **More block variants planned.**
+Tom’s Simple Storage: Extensions is a Forge addon for **[Tom’s Simple Storage Mod](https://github.com/tom5454/Toms-Storage)** that adds an **Inventory Trim Slab** variant to Minecraft 1.20.1. **More block variants planned.**
 
 ## **Download the Beta Release - out now**
 # *[Curseforge](https://www.curseforge.com/minecraft/mc-mods/toms-extensions/files?page=1&pageSize=20&showAlphaFiles=hide)*
@@ -6,7 +6,7 @@ Tom’s Simple Storage: Extensions is a Forge addon for **[Tom’s Simple Storag
 
 ## Requires
 
-*   **Tom’s Simple Storage Mod : [Modrinth Link](https://modrinth.com/mod/toms-storage) [Curseforge Link](https://www.curseforge.com/minecraft/mc-mods/toms-storage)**
+*   **[Tom’s Simple Storage Mod](https://github.com/tom5454/Toms-Storage)**
 *   **Forge 47.4.0**
 *   **Minecraft 1.20.1**
 
@@ -52,7 +52,7 @@ Examples:
 
 ## Credits
 
-Built as an addon for **[Tom’s Simple Storage Mod](https://www.curseforge.com/minecraft/mc-mods/toms-storage)**.  
+Built as an addon for **[Tom’s Simple Storage Mod](https://github.com/tom5454/Toms-Storage)**.  
 Please download the original mod separately.  
 Thanks to **[tom5454](https://github.com/tom5454)** for the original mod!
 
