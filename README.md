@@ -1,5 +1,9 @@
 # Tom's Simple Storage: Extensions
 
+## **Download the `0.2.0` Release**
+# *[Curseforge](https://www.curseforge.com/minecraft/mc-mods/toms-extensions/files?page=1&pageSize=20&showAlphaFiles=hide)*
+# *[Modrinth](https://modrinth.com/mod/toms-extensions/versions)*
+
 An addon for Tom's Simple Storage Mod that adds trim slab variants and extends Tom's Paint Kit function.
 
 `0.2.0` is the first release. It builds on Tom's Simple Storage Mod's custom solutions and focuses on adding the Inventory Trim slab variant. The Inventory Trim Slab carries Tom's Inventory Trim network function and is paintable. The Paint Kit function has been expanded for slab paint application and paint-sourcing including additional effects as light emission and particle effects.
