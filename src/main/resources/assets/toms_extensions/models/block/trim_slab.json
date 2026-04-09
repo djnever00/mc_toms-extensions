@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "toms_extensions:block/trim",
+        "top": "toms_extensions:block/trim",
+        "side": "toms_extensions:block/trim_slab_2"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "type=bottom,waterlogged=false": {
+            "model": "toms_extensions:block/magma_trim_slab"
+        },
+        "type=top,waterlogged=false": {
+            "model": "toms_extensions:block/magma_trim_slab_top"
+        },
+        "type=double,waterlogged=false": {
+            "model": "toms_extensions:block/magma_trim_full"
+        },
+        "type=bottom,waterlogged=true": {
+            "model": "toms_extensions:block/magma_trim_slab"
+        },
+        "type=top,waterlogged=true": {
+            "model": "toms_extensions:block/magma_trim_slab_top"
+        },
+        "type=double,waterlogged=true": {
+            "model": "toms_extensions:block/magma_trim_full"
+        }
+    }
+}

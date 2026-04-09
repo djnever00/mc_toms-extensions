@@ -1,0 +1,25 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "toms_extensions:allow_trim_slab_recipes"
+                }
+            ],
+            "recipe": {
+                "type": "minecraft:crafting_shapeless",
+                "category": "building",
+                "ingredients": [
+                    {
+                        "item": "toms_storage:ts.trim"
+                    }
+                ],
+                "result": {
+                    "item": "toms_extensions:trim_slab",
+                    "count": 2
+                }
+            }
+        }
+    ]
+}

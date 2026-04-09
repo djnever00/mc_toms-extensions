@@ -1,0 +1,49 @@
+# Gradle / Java
+.gradle/
+.gradle-local/
+.gradle-user-home/
+build/
+bin/
+out/
+libs/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Runtime data
+run/
+run-data/
+logs/
+crash-reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local archives / tooling artifacts
+*.7z
+code_index_out/
+code_dump.txt
+directory_tree.txt
+dump_console.log
+*.lnk
+code_dump.ps1
+code_index.ps1
+dump_directory_tree.ps1
+accesstransform.log
+tmp_*.png
+
+# Local comparison / reference workspaces
+_archive_compare*/
+_ref_*/
+
+# Local project diary / testing notes
+BETA_BASELINE_NOTES.md
+TESTING_COMMIT_LOG.md
+
+# Optional local folders
+img/
+tools/
+versioning/

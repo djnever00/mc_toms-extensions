@@ -1,0 +1,8 @@
+{
+    "block.toms_extensions.trim_slab": "Inventory Trim Slab",
+    "item.toms_extensions.trim_slab": "Inventory Trim Slab",
+    "block.toms_extensions.painted_trim_slab": "Painted Inventory Trim Slab",
+    "item.toms_extensions.painted_trim_slab": "Painted Inventory Trim Slab",
+    "block.toms_extensions.magma_trim_slab": "Magma Inventory Trim Slab",
+    "item.toms_extensions.magma_trim_slab": "Magma Inventory Trim Slab"
+}
