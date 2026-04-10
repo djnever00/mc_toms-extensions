@@ -1,12 +1,12 @@
 # Tom's Simple Storage: Extensions
 
-## **Download the `0.2.0` Release**
+## **Download the `0.2.1` Release**
 # *[Curseforge](https://www.curseforge.com/minecraft/mc-mods/toms-extensions/files?page=1&pageSize=20&showAlphaFiles=hide)*
 # *[Modrinth](https://modrinth.com/mod/toms-extensions/versions)*
 
 An addon for Tom's Simple Storage Mod that adds trim slab variants and extends Tom's Paint Kit function.
 
-`0.2.0` is the first release. It builds on Tom's Simple Storage Mod's custom solutions and focuses on adding the Inventory Trim slab variant. The Inventory Trim Slab carries Tom's Inventory Trim network function and is paintable. The Paint Kit function has been expanded for slab paint application and paint-sourcing including additional effects as light emission and particle effects.
+`0.2.1` is the current release. It builds on Tom's Simple Storage Mod's custom solutions and focuses on adding the Inventory Trim slab variant. The Inventory Trim Slab carries Tom's Inventory Trim network function and is paintable. The Paint Kit function has been expanded for slab paint application and paint-sourcing including additional effects such as light emission and particle effects.
 
 ## Features
 
@@ -15,8 +15,8 @@ An addon for Tom's Simple Storage Mod that adds trim slab variants and extends T
 - Supports painting trim slabs with Tom's existing paint kit flow
 - Mirrors copied block textures onto slab geometry
 - Mirrors copied light emission and particle effects
-- Handles grass tint, leaves, glass-like facades, cutout rendering, and many block-specific slab sampling cases
-- Adds recipes for trim slab to trim and vice versa
+- Handles grass tint, leaves, glass-like facades, cutout rendering, and certain block-specific slab sampling
+- Adds recipes for trim to trim slab and vice versa
 
 ## Supported Versions
 
@@ -28,7 +28,7 @@ An addon for Tom's Simple Storage Mod that adds trim slab variants and extends T
 
 1. Install Minecraft Forge `47.4.0` or newer
 2. Place Tom's Simple Storage Mod, `toms_storage-1.20-1.7.1` or newer, in your `mods` folder
-3. Place `toms_extensions-0.2.0.jar` in your `mods` folder
+3. Place `toms_extensions-0.2.1.jar` in your `mods` folder
 4. Launch the game
 
 ## Configuration
@@ -50,7 +50,7 @@ Recipe visibility is evaluated during recipe load. If you change recipe settings
 
 ## Release Notes
 
-Highlights in `0.2.0`:
+Highlights in `0.2.1`:
 
 - Deep paint kit integration for trim slabs
 - Painted slab runtime facade profiling
@@ -64,7 +64,7 @@ See CHANGELOG.md for the full release notes.
 
 - This is an addon mod and requires Tom's Simple Storage Mod.
 - Existing beta saves from version `0.1.2` and `0.1.3` may not migrate cleanly.
-- Always back up older worlds before moving from beta builds to `0.2.0`.
+- Always BACKUP worlds before moving from beta builds to `0.2.1`.
 
 ## Development
 

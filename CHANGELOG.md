@@ -1,48 +1,63 @@
 # Changelog
 
-## 0.2.0
+## 0.2.1
 
-This release is a major rewrite from the last beta 0.1.3 tss_trim_slab build. BACKUP BEFORE LOADING A WORLD FROM 0.1.2-0.1.3.
-
-### Rename
-
-- Mod codebase and filenaming updated to toms-extensions
-
-### Added
-
-- Deep paint kit integration for trim slabs, including capture-time facade profiling.
-- Painted trim slab block entity support for copied facade state, runtime facade behavior, and model data.
-- Mirrored block light emission and particle emission from copied source blocks, with config toggles.
-- Dedicated magma trim slab path for vanilla-matching magma visuals, lighting, and rain smoke without `hurtsToWalkOn`.
-- Expanded facade rendering support for grass tint, leaves, cutout, translucent glass-like blocks, slab/full-block lookup, and half-block sampling exceptions.
-- Modern resource/data setup including recipes, loot tables, tags, client wrappers, and registry cleanup.
-
-### Changed
-
-- Migrated from the original `tss_trim_slab` prototype into the `toms_extensions` mod namespace and package layout.
-- Reworked painted slab rendering to use facade profiles and source-aware routing instead of the original simple sprite remap only.
-- Reworked copied light handling to be server-authored and stored on blockstate, instead of relying on client-only refresh behavior.
-- Reworked paint application flow so copied blocks can mirror more of their source behavior while staying on trim slab hosts.
+This release fixes the dedicated-server startup issue in `0.2.0`.
 
 ### Fixed
 
-- Grass tint and layered grass-side rendering on painted slabs.
-- Glass and other transparent facade rendering, including underside visibility and skylight behavior.
-- Leaves, shroomlight, and other facade-specific slab texture sampling paths.
-- Redstone ore and redstone lamp runtime facade activation, lighting, and texture switching.
+- Fixed dedicated servers trying to load client-only classes during mod startup.
+
+### Notes
+
+- `0.2.1` is the current release.
+- Back up worlds before loading saves from older beta builds.
+
+## 0.2.0
+
+This release is a major rewrite from the old beta `0.1.2` and `0.1.3` line It is the first release under the `toms_extensions` namespace.
+
+### Rename
+
+- Renamed the mod from `tss_trim_slab` / `toms_trim_slab` to `toms_extensions`.
+
+### Added
+
+- Trim slab variants for Tom's Simple Storage trim blocks.
+- Painted trim slab support using Tom's paint kit workflow.
+- Mirrored painted block light emission and passive particle effects.
+- Shared facade profile capture and runtime routing for painted slabs.
+- Dedicated magma trim slab path for correct vanilla-style magma rendering.
+- Config toggles for painted block light and particle mirroring.
+- Legacy namespace remaps for published `0.1.3` worlds.
+
+### Changed
+
+- Reworked painted slab rendering to use facade-specific routing for cutout, translucent, grass, light, and texture sampling behavior.
+- Reworked lighting to be server-driven and blockstate-backed instead of relying on client-side relight hacks.
+- Simplified glass and leaves handling back onto the stable generic painted slab path.
+- Updated slab texture classification rules for side-sampled vs squished facade groups.
+
+### Fixed
+
+- Grass tint and layered grass-side rendering.
+- Glass underside rendering, void-through transparency bugs, and skylight handling.
+- Redstone ore and redstone lamp runtime texture and light syncing.
+- Shroomlight, froglight, glowstone, sea lantern, crying obsidian, and other emissive facade consistency.
+- Rain smoke for painted magma slabs.
+- Dedicated server loading crash caused by client classes being loaded on the server.
 
 ### Removed
 
-- Old transparent painted slab compatibility host.
-- Older generic lighting workaround code replaced for accurate mirrored-light system.
+- Unused experimental compatibility code and stale lighting workarounds.
+- Legacy transparent-host migration path that was never part of the published beta line.
 
 ### Breaking Changes
 
-- Saves from toms/tss-trim-slab with trim slab blocks from pre-0.2.0 worlds will lose paint or may break entirely on world load. BACKUP BEFORE TRYING.
-- 0.1.2-0.1.3 migration and block conversion for legacy blocks is in place but not guaranteed. BACKUP BEFORE TRYING.
+- Worlds from unpublished experimental builds may not retain those unpublished block IDs.
+- Back up old saves before moving from beta builds to the `0.2.x` line.
 
 ## 0.1.2 and 0.1.3 Deprecation
 
-- Last published prototype build under the older `tss_trim_slab` / `toms_trim_slab` codebase.
-- Included the original trim slab, painted trim slab, and basic painted slab renderer.
-- Migration path in place (but not guaranteed) to keep placed slabs but any applied paint overlay will not migrate.
+- `0.1.2` and `0.1.3` were beta builds under the old namespace and are now deprecated.
+- Published world migration should continue through legacy remaps for `trim_slab` and `painted_trim_slab`.
