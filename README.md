@@ -6,7 +6,7 @@
 
 An addon for Tom's Simple Storage Mod that adds trim slab variants and extends Tom's Paint Kit function.
 
-`0.2.1` is the current release. It builds on Tom's Simple Storage Mod's custom solutions and focuses on adding the Inventory Trim slab variant. The Inventory Trim Slab carries Tom's Inventory Trim network function and is paintable. The Paint Kit function has been expanded for slab paint application and paint-sourcing including additional effects such as light emission and particle effects.
+`0.2.1` is the current release. It builds on Tom's Simple Storage Mod's custom solutions woth a focus on adding an Inventory Trim slab variant. The Inventory Trim Slab carries Tom's Inventory Trim network function and, like Tom's Trim, is paintable. The Paint Kit function has been expanded for slab painting and paint-sourcing, and additional source-mirroring for light emission and particle effects.
 
 ## Features
 
