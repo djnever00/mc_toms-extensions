@@ -1,6 +1,6 @@
 # Tom's Simple Storage: Extensions
 
-## **Download the `0.2.1` Release**
+## **Download the `0.2.1` Release for Forge 1.20.1**
 # *[Curseforge](https://www.curseforge.com/minecraft/mc-mods/toms-extensions/files?page=1&pageSize=20&showAlphaFiles=hide)*
 # *[Modrinth](https://modrinth.com/mod/toms-extensions/versions)*
 
